@@ -1,0 +1,48 @@
+<html lang="en-US">
+<head>
+	<title>Nulcor</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<style>
+		body {
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+			background-color: #222;
+		}
+		h1 {
+			font-size: 128px;
+			font-family: "Courier New", Courier, monospace;
+			text-align: center;
+			font-weight: bold;
+			color: #222;
+		}
+		.centered {
+			position: relative;
+			top: 50%;
+			width: 110%;
+			margin-left: -5%;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			animation: mymove 1.5s infinite;
+			-webkit-animation: mymove 1.5s infinite;
+			background-color: #111;
+		}
+		@keyframes mymove {
+			0%   {box-shadow: 0px 0px 40px #000;}
+			50%  {box-shadow: 0px 0px 20px #000;}
+			100% {box-shadow: 0px 0px 30px #000;}
+		}
+		@-webkit-keyframes mymove {
+			0%   {-webkit-box-shadow: 0px 0px 50px #000;}
+			50%  {-webkit-box-shadow: 0px 0px 25px #000;}
+			100% {-webkit-box-shadow: 0px 0px 40px #000;}
+		}
+	</style>
+</head>
+<body>
+		<h1 class="centered">nulcor.com</h1>
+</body>
+</html>
